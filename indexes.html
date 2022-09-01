@@ -19,7 +19,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/resume.min.css" rel="stylesheet">
+    <link href="css/resume.css" rel="stylesheet">
 
   </head>
 
@@ -198,7 +198,7 @@
               <h3 class="mb-0">En la Universidad</h3>
               <div class="subheading mb-3">Project 1</div>
               <p>Fue un proyecto calculado por los maestros donde se tomaron dos requisitos y se utilizaron marcos de desarrollo ágil. Se basó principalmente en adoptar una estrategia de desarrollo incremental, en lugar de la planificación y ejecución completas del producto. Era un grupo de 5 personas donde cada una tenía un rol importante dentro del grupo, por ejemplo, mi rol era el de calidad y La de otro compañero fue de soporte. Se utilizaron tecnologías como JavaScript, Jquery, bootstrap, php, Ajax, CSS y se utilizó un servidor local llamado wampserver 2.2 en el proyecto php. El proyecto era una aplicación para un gimnasio donde los clientes y entrenadores podían registrarse. Los entrenadores podrían asignar la rutina a los clientes que tienen a cargo en la aplicación y también tomar medias de diferentes músculos y poder almacenar la información del cliente. Los clientes pueden hacer citas desde la aplicación, ver su rutina, su progreso e incluso poder pagar desde la aplicación.</p>
-              <a href="http://marvincalvoa.ddns.net/proyecto1/" target="js">
+              <a href="https://marvinjesus.github.io/proyecto1/" target="js">
                  Mostrar Aplicación.
               </a>
             </div>
@@ -296,28 +296,61 @@
           <div class="subheading mb-3">Lenguajes de Programación &amp; Herramientas</div>
           <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+              <i class="fab fa-html5" data-toggle="tooltip" data-placement="top" title="HTML5"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <i class="fab fa-css3-alt" data-toggle="tooltip" data-placement="top" title="CSS3"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
+              <i class="fab fa-js-square" data-toggle="tooltip" data-placement="top" title="JavaScript"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-angular"></i>
+              <i class="fab fa-angular" data-toggle="tooltip" data-placement="top" title="Angular"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-react"></i>
+              <i class="fab fa-react" data-toggle="tooltip" data-placement="top" title="React"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-node-js"></i>
+              <i class="fab fa-node-js" data-toggle="tooltip" data-placement="top" title="Nodejs"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-sass"></i>
+              <i class="fab fa-node" data-toggle="tooltip" data-placement="top" title="Node"></i>
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-"></i>
+              <i class="fab" data-toggle="tooltip" data-placement="top" title="SQL">SQL</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-sass" data-toggle="tooltip" data-placement="top" title="Sass"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-git" data-toggle="tooltip" data-placement="top" title="Git"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-github" data-toggle="tooltip" data-placement="top" title="GitHub"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-laravel" data-toggle="tooltip" data-placement="top" title="Laravel"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-java" data-toggle="tooltip" data-placement="top" title="Java"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab" data-toggle="tooltip" data-placement="top" title="C#">C#</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab" data-toggle="tooltip" data-placement="top" title="asp.net">asp.net</i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fa-bitbucket" data-toggle="tooltip" data-placement="top" title="Bitbucket"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fi fi-brands-mysql" data-toggle="tooltip" data-placement="top" title="MySQL"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fi fi-brands-typescript" data-toggle="tooltip" data-placement="top" title="Typescript"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="fab fi fi-brands-php" data-toggle="tooltip" data-placement="top" title="Php"></i>
             </li>
           </ul>
 
@@ -353,17 +386,17 @@
        <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="curriculum" style="width: 100%; height: 100%;">
           <h2 class="mb-5">Currículum</h2>
           <object
-            data="./pdf/esCurriculMarvin2019V2.pdf#page=2"
+            data="./pdf/esCurriculMarvin2022.pdf#page=1"
             type="application/pdf"
             width="100%"
             height="100%" style='height: 764px;'>
             <iframe
-              src="./pdf/esCurriculMarvin2019V2.pdf#page=2"
+              src="./pdf/esCurriculMarvin2022.pdf#page=1"
               width="100%"
               height="100%"
               style="border: none;">
               <p>Your browser does not support PDFs.
-                <a href="./pdf/esCurriculMarvin2019V2.pdf">Download the PDF</a>.</p>
+                <a href="./pdf/esCurriculMarvin2022.pdf">Download the PDF</a>.</p>
             </iframe>
           </object>
       </section>
@@ -398,7 +431,11 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/resume.js"></script>
-
+    <script type="application/javascript">
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
   </body>
 
 </html>
