@@ -39,6 +39,18 @@ function showTitle(e) {
       case '2':
         document.getElementById("image-modal").setAttribute("src","./img/001.jpg");
         break;
+      case '3':
+        document.getElementById("image-modal").setAttribute("src","./img/scrumMaster.png");
+        break;
+      case '4':
+        document.getElementById("image-modal").setAttribute("src","./img/scrumMasterProfesional.png");
+        break;
+      case '5':
+        document.getElementById("image-modal").setAttribute("src","./img/scrumMasterFoundation.png");
+        break;
+      case '6':
+        document.getElementById("image-modal").setAttribute("src","./img/CCNA.png");
+        break;
       default:
         // code block
     }
